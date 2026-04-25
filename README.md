@@ -69,7 +69,7 @@ Add to your Claude Code MCP configuration:
   "mcpServers": {
     "quickbooks": {
       "command": "node",
-      "args": ["path/to/mcp-quickbooks-online/dist/index.js"],
+      "args": ["/Users/PCWProps/Documents/GitHub/quickbooks-online-mcp-server/src/index.ts"],
       "env": {
         "QUICKBOOKS_CLIENT_ID": "your_client_id",
         "QUICKBOOKS_CLIENT_SECRET": "your_client_secret",
